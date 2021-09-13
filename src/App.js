@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Startpage from './component/component1/Startpage'
 const App = () => {
     return (
         <div>
-            <h1>Hello</h1>
+            <Startpage/>
         </div>
     )
 }
