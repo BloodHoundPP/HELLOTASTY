@@ -1,27 +1,28 @@
 .container {
-  position: absolute;
+  /* position: absolute;
   left: 0;
-  top: 0;
+  top: 0; */
   width: 100%;
-  height: 100vh;
-  animation: animate 30s ease-in-out infinite;
+  height: 60%;
+  padding-bottom: 10%;
   background-size: cover;
+  background-image: url('./images/food\ homepage-01.png');
 }
 .container img {
-  width: 200px;
-  height: auto;
+  width: 150px;
+  height: 120px;
   padding: 0px;
   margin: 0px;
 }
-.outer {
-  position: absolute;
+/* .outer {
+  
   left: 0;
   top: 0;
   width: 100%;
   height: 100vh;
 }
 .details {
-  position: absolute;
+ 
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -31,24 +32,10 @@
   font-size: 4em;
   color: #fff;
 }
-@keyframes animate {
-  0%,
-  100% {
-    background-image: url(../component1/images/hellotasty_home_page_pics-01.png);
-  }
-  25% {
-    background-image: url(../component1/images/hellotasty_home_page_pics-02.png);
-  }
-  50% {
-    background-image: url(../component1/images/hellotasty_home_page_pics-03.png);
-  }
-  75% {
-    background-image: url(../component1/images/hellotasty_home_page_pics-04.png);
-  }
-}
+
 
 .search_box {
-  position: absolute;
+  
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -78,17 +65,70 @@
   color: #2f3640;
   font-size: 16px;
   padding: 10px;
-}
+} */
 .main {
-  position: absolute;
-  top: 40%;
-  left: 51%;
-  transform: translate(-50%, -50%);
+  text-align: center;
 }
-.subtitle {
+.main .title{
+  position: relative;
+  
+  width: 40%;
+  height: 10%;
+  margin: 2% 0 1%;
+}
+
+.main .subheading{
+  font-family: 'Embassy BT', arial;
+  color: #ffbb91;
+  font-size: 4rem;
+
+}
+
+
+
+.search{
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #fff;
+  margin: 6% 25% 0;
+  padding: 0.4% 2%;
+  border: 1px solid #fff;
+  border-radius: 50px;
+}
+
+.search .icon1{
+  width: 50px;
+  height: 50px;
+  color: #696969;
+  position: relative;
+  right: 28.5%;
+}
+
+input{
+  position: relative;
+  right: 25%;
+  /* padding: 1.5% 0; */
+  font-size: 40px;
+  outline: none;
+  border: none;
+}
+
+.search .icon2{
+  background-color: #000;
+  color: #fff;
+  border-radius: 100%;
+  padding: 1.5%;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  left: 28.7%;
+}
+
+
+/* .subtitle {
   width: 500px;
-}
-.main img{
+} */
+/* .main img{
     width: 900px;
     height: auto;
-}
+} */

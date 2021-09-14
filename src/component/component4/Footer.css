@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+
+
+.extra-space{
+    height:100px;
+    background-color: #fff;
+    z-index: -1;
+}
+
+.blog{
+    position: absolute;
+    background: linear-gradient(180deg, #0BBD68 0%, #048F51 0.01%, #08C66B 100%);
+    width: 70%;
+    height: 450px;
+    margin-left: 13%;
+    margin-top: 10%;
+    border-radius: 0px 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    z-index: 1;
+    top: 120px;
+}
+.left{
+    text-align: left;
+    position: relative;
+    left: 12%;
+}
+
+.right{
+    position: relative;
+    text-align: right;
+    right: 12%;
+}
+
+.left .blog-text{
+    padding-top: 35%;
+    padding-left: 20%;
+}
+.right .blog-text{
+    padding-top: 32%;
+    padding-right: 20%;
+}
+.blog .blog-text h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.blog .blog-text p{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.blog .blog-text a{
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 13px 20px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+.blog .blog-text a:hover{
+    background:none;
+    color: black;
+}
+
+.blog .man img{
+    width: 350px;
+    height: 500px;
+    position: relative;
+    left: 10px;
+    bottom: 50px;
+    z-index: 1;
+}
+
+.blog .woman img{
+    
+    position: relative;
+    
+    right:45px;
+    bottom: 50px;
+    z-index: 1;
+    width: 280px;
+    height: 500px;
+    /* right:42px; */
+}
+
+
+
+
+
+
+
+
+
+.about{
+    height: 600px;
+    position: relative;
+    z-index: -1;
+    background-color: #000;
+}
+
+.about .logo img{
+    height: 150px;
+    width: 300px;
+    margin-top: 10%;
+    margin-left: 7%;
+}
