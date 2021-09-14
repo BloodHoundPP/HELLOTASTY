@@ -40,20 +40,6 @@ const Startpage = () => {
       
     </div>
 
-
-      {/* <div className={classes.outer}>
-        <div className={classes.search_box}>
-          <input
-            className={classes.search_txt}
-            type="text"
-            name=""
-            placeholder="Type to search"
-          />
-          <a className={classes.search_btn} href="#1">
-            <i class="fas fa-search"></i>
-          </a>
-        </div>
-      </div> */}
     </div>
 
   );
