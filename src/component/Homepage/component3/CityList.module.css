@@ -5,10 +5,16 @@
 .container{
   padding: 60px 240px;
   background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.527)100%);
+  /* z-index: 1; */
 
 }
 
-
+.container .icon{
+  position: relative;
+  left:80%;
+  /* bottom: 80%; */
+  
+}
 .column{
   display: flex;
   flex-direction: column;

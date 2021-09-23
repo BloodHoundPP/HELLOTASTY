@@ -27,13 +27,15 @@
   margin: 2% 0 1%;
 }
 
+
+
 .main .subheading{
   font-family: 'Embassy BT', arial;
-  color: #ffbb91;
+  color: #fda772;
+  /* color: #000; */
   font-size: 4rem;
 
 }
-
 
 
 .search{

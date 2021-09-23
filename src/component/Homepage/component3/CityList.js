@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from "./CityList.module.css";
-
+import { Icon } from '@iconify/react';
 
 const cities = [{
     id: 1,
@@ -100,6 +100,7 @@ export const Citylist = () => {
                 <div className={classes.column}>
                     <div className={classes.city_row}>{listItems}</div>
                 </div>
+                <Icon className={classes.icon} icon="fluent:food-pizza-20-regular" color="#f4f4f4" width="200" height="200" />
             </div>
         </div>
     )

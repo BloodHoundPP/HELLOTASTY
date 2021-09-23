@@ -4,6 +4,7 @@ import classes from "./Startpage.module.css";
 import mainlogo from "./images/mainlogo.png";
 import navlogo from "./images/Navbarlogo-01.png";
 import { Icon } from '@iconify/react';
+import Typical from 'react-typical';
 
 const Startpage = () => {
   return (
@@ -24,7 +25,26 @@ const Startpage = () => {
 
      <div className={classes.main}>
       <img className={classes.title} src={mainlogo} alt="mainlogo"/>
-      <h2 className={classes.subheading}>The Eatery Platform</h2>
+      <h2 className={classes.subheading}>
+        <Typical 
+          loop={Infinity}
+     
+          steps={
+            [
+              'The Eatery Platform',
+              3000,
+              "Joey Doesn't Share Food But We Do",
+              3000,
+              'Food That Awaits You',
+              3000,
+              'Choose best, Choose Tasty Choose HelloTasty',
+              3000
+            ]
+          }
+
+        />
+        </h2>
+       
      </div>
 
     <div className={classes.search}>
