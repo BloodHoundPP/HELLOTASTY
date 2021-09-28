@@ -3,11 +3,19 @@
 
 *{
     font-size: 62.5%;
-    background-color: #E5E5E5;;
+  
 }
+
+
+/* Navigation bar */
 .navigation{
-    padding: 2rem 4rem;
+    position: fixed;
+    width: 100%;
+    padding: 1rem 4rem;
     font-family: 'Playfair Display', serif;
+    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+    z-index: 2;
+    background-color: #fff;
 }
 .navigation .logo{
     width: 8rem;
@@ -34,9 +42,11 @@
     
 }
 
+/* Gallary and top hotels */
+
 .gallary{
-    padding: 7rem 0;
-    margin: 2rem 10rem;
+    
+    padding: 15rem 20rem;
     font-family: 'Playfair Display', serif;
 }
 
@@ -54,15 +64,15 @@
 
 .gallary  .cards .row .col{
     border-radius: 6.3rem;
-    width: 30rem;
-    height: 50rem;
-    margin: 2rem ;
+    width: 10rem;
+    height: 40rem;
+    margin: 2rem 3rem ;
     padding: 0;
     cursor: pointer;
 }
 
 .gallary .cards .empty{
-    height: 39.5rem;
+    height: 29.8rem;
     background:none;
 }
 
@@ -71,6 +81,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: center center;
+    
 }
 .gallary  .cards .card2{
     background-image: url('./images/fries.png');
@@ -98,7 +109,109 @@
     /* padding: 2rem 0; */
     background: rgba(0, 0, 0, 0.45);
     border-radius: 0 0 6.3rem 6.3rem;
-    padding: 4rem 0;
+    padding: 3.9rem 0;
     /* width: 50%; */
     margin: 0;
+}
+.gallary .cards .card1 p{
+    padding: 3.9rem 2.5rem 1.5rem;   
+}
+
+
+/* hotels list */
+
+.hotels{
+    padding: 7rem 20rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.hotels h2{
+    font-size: 4.3rem;
+    margin-bottom: 5rem;
+    margin-left: 2.5rem;
+}
+
+.hotels .col{
+    margin: 5rem 2rem;
+}
+
+.hotels .col .card{
+    width: 30rem !important;
+    height: 40rem;
+    border: 0.2rem solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3.2rem;
+    
+}
+
+.hotels .col .card img{
+    text-align: center;
+    padding: 1rem ;
+    align-items: center;
+    /* border: 0.1rem solid #E2E2E2; */
+    box-sizing: border-box;
+    border-radius: 3.1rem;
+}
+
+.hotels .col .card .card-title{
+    font-size: 2.7rem;
+    padding-left: 2rem;
+}
+
+.hotels .col .card .card-text{
+    font-size: 2rem;
+    padding-left: 1.8rem;
+    color: #727272;
+}
+
+/* Popular dishes */
+
+
+.dishes{
+    padding: 7rem 20rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.dishes h2{
+    font-size: 4.3rem;
+    margin-bottom: 5rem;
+    margin-left: 2.5rem;
+}
+
+.dishes .col{
+    margin: 5rem 2rem;
+}
+
+.dishes .col .card{
+    width: 30rem !important;
+    height: 40rem;
+    border: 0.2rem solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3.2rem;
+    
+}
+
+.dishes .col .card img{
+    text-align: center;
+    padding: 1rem ;
+    align-items: center;
+    /* border: 0.1rem solid #E2E2E2; */
+    box-sizing: border-box;
+    border-radius: 3.1rem;
+}
+
+.dishes .col .card .card-title{
+    font-size: 2.7rem;
+    padding-left: 2rem;
+}
+
+.dishes .col .card .card-subtitle{
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+.dishes .col .card .card-text{
+    font-size: 2rem;
+    padding-left: 1.8rem;
+    color: #727272;
 }
