@@ -87,7 +87,7 @@ const cities = [{
 
 
 const listItems = cities.map((city) =>
-    <div className={classes.link}><a className={classes.ancher} href="#">{city.name}</a></div>
+    <div className={classes.link}><a className={classes.ancher} href="#city">{city.name}</a></div>
 );
 
 

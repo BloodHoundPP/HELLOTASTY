@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Homepage from "./component/Homepage/Homepage";
 import Collection from "./component/CollectionPage/Collection";
-import NavigationBar from "./component/CollectionPage/Header/NavigationBar";
 import Footer from "./component/Homepage/component4/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 

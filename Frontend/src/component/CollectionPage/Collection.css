@@ -1,30 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
 
-
+/* 
 *{
     font-size: 62.5%;
   
-}
+} */
 
 
 /* Navigation bar */
 .navigation{
     position: fixed;
     width: 100%;
-    padding: 1rem 4rem;
+    padding: 1% 3%;
     font-family: 'Playfair Display', serif;
     /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
     z-index: 2;
     background-color: #fff;
 }
 .navigation .logo{
-    width: 8rem;
-    height: 8rem;
+    width: 80px;
+    height: 80px;
 }
 
 .navigation .navbar .navbar-nav .nav-link{
-    font-size: 2rem;
-    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    padding: 10px 20px;
 }
 
 .navigation .navbar .navbar-nav .nav-link:hover{
@@ -32,13 +32,13 @@
 }
 
 .navigation .navbar .navbar-nav .nav-link span img{
-    width: 3rem;
-    height: 3rem;
-    margin-right: .5rem;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
 }
 .navigation .navbar .navbar-nav .nav-link .cart{
-    height: 3rem;
-    width: 3rem;
+    height: 30px;
+    width: 30px;
     
 }
 
@@ -46,33 +46,33 @@
 
 .gallary{
     
-    padding: 15rem 20rem;
+    padding: 150px 200px;
     font-family: 'Playfair Display', serif;
 }
 
 .gallary  h2{
-    font-size: 4.3rem;
-    margin-bottom: 1rem;
-    margin: 2rem 2rem;
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+    margin: 20px 20px;
 }
 
 .gallary  p{
-    font-size: 3rem;
+    font-size: 1.4rem;
     color: #4E4C4C;
-    margin: 1rem 2rem 4rem;
+    margin: 10px 20px 40px;
 }
 
 .gallary  .cards .row .col{
-    border-radius: 6.3rem;
-    width: 10rem;
-    height: 40rem;
-    margin: 2rem 3rem ;
+    border-radius: 63px;
+    width: 100px;
+    height: 400px;
+    margin: 20px 30px ;
     padding: 0;
     cursor: pointer;
 }
 
 .gallary .cards .empty{
-    height: 29.8rem;
+    height: 298px;
     background:none;
 }
 
@@ -103,64 +103,64 @@
 }
 .gallary .cards p{
     text-align: center;
-    font-size: 2.3rem;
-    line-height: 2.4rem;
+    font-size: 1.4rem;
+    line-height: 24px;
     color: #fff;
     /* padding: 2rem 0; */
     background: rgba(0, 0, 0, 0.45);
-    border-radius: 0 0 6.3rem 6.3rem;
-    padding: 3.9rem 0;
+    border-radius: 0 0 63px 63px;
+    padding: 39px 0;
     /* width: 50%; */
     margin: 0;
 }
 .gallary .cards .card1 p{
-    padding: 3.9rem 2.5rem 1.5rem;   
+    padding: 39px 25px 15px;   
 }
 
 
 /* hotels list */
 
 .hotels{
-    padding: 7rem 20rem;
+    padding: 70px 200px;
     font-family: 'Playfair Display', serif;
 }
 
 .hotels h2{
-    font-size: 4.3rem;
-    margin-bottom: 5rem;
-    margin-left: 2.5rem;
+    font-size: 2.3rem;
+    margin-bottom: 50px;
+    margin-left: 25px;
 }
 
 .hotels .col{
-    margin: 5rem 2rem;
+    margin: 5opx 20px;
 }
 
 .hotels .col .card{
-    width: 30rem !important;
-    height: 40rem;
-    border: 0.2rem solid #E5E5E5;
+    width: 300px !important;
+    height: 400px;
+    border: 2px solid #E5E5E5;
     box-sizing: border-box;
-    border-radius: 3.2rem;
+    border-radius: 32px;
     
 }
 
 .hotels .col .card img{
     text-align: center;
-    padding: 1rem ;
+    padding: 10px ;
     align-items: center;
     /* border: 0.1rem solid #E2E2E2; */
     box-sizing: border-box;
-    border-radius: 3.1rem;
+    border-radius: 31px;
 }
 
 .hotels .col .card .card-title{
-    font-size: 2.7rem;
-    padding-left: 2rem;
+    font-size: 1.7rem;
+    padding-left: 20px;
 }
 
 .hotels .col .card .card-text{
-    font-size: 2rem;
-    padding-left: 1.8rem;
+    font-size: 20px;
+    padding-left: 18px;
     color: #727272;
 }
 
@@ -168,50 +168,50 @@
 
 
 .dishes{
-    padding: 7rem 20rem;
+    padding: 70px 200px;
     font-family: 'Playfair Display', serif;
 }
 
 .dishes h2{
-    font-size: 4.3rem;
-    margin-bottom: 5rem;
-    margin-left: 2.5rem;
+    font-size: 2.3rem;
+    margin-bottom: 50px;
+    margin-left: 25px;
 }
 
 .dishes .col{
-    margin: 5rem 2rem;
+    margin: 50px 20px;
 }
 
 .dishes .col .card{
-    width: 30rem !important;
-    height: 40rem;
-    border: 0.2rem solid #E5E5E5;
+    width: 300px !important;
+    height: 400px;
+    border: 2px solid #E5E5E5;
     box-sizing: border-box;
-    border-radius: 3.2rem;
+    border-radius: 32px;
     
 }
 
 .dishes .col .card img{
     text-align: center;
-    padding: 1rem ;
+    padding: 10px ;
     align-items: center;
     /* border: 0.1rem solid #E2E2E2; */
     box-sizing: border-box;
-    border-radius: 3.1rem;
+    border-radius: 31px;
 }
 
 .dishes .col .card .card-title{
-    font-size: 2.7rem;
-    padding-left: 2rem;
+    font-size: 27px;
+    padding-left: 20px;
 }
 
 .dishes .col .card .card-subtitle{
-    font-size: 2rem;
-    padding-left: 2rem;
+    font-size: 20px;
+    padding-left: 20px;
 }
 
 .dishes .col .card .card-text{
-    font-size: 2rem;
-    padding-left: 1.8rem;
+    font-size: 20px;
+    padding-left: 18px;
     color: #727272;
 }

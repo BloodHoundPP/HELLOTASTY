@@ -10,7 +10,7 @@ const Collection = () => {
             <NavigationBar />
             <Gallary />
             <Restaurants/>
-            <Dishes />
+            {/* <Dishes /> */}
         </div>
     )
 }

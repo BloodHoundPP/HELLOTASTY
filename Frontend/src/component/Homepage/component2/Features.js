@@ -14,15 +14,15 @@ function Features()
             <div className="feature-elements">
                 <Row>
                     <Col>
-                        <img src={img1} alt="image-1"/>
+                        <img src={img1} alt="img-1"/>
                         <p>Hand picked Restaurants</p>
                     </Col>
                     <Col>
-                        <img src={img2} alt="image-2"/>
+                        <img src={img2} alt="img-2"/>
                         <p>Easy to order</p>
                     </Col>
                     <Col>
-                        <img src={img3} alt="image-3"/>
+                        <img src={img3} alt="img-3"/>
                         <p>Fastest delivery</p>
                     </Col>
                 </Row>
